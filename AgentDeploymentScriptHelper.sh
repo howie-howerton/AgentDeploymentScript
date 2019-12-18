@@ -1,5 +1,5 @@
 #!/bin/bash
-## set-aia-settings <dsm_elb_fqdn> <heartbeat_port> <manager_port> <policy_id>
+## AgentDeploymentScriptHelper.sh <dsm_elb_fqdn> <heartbeat_port> <manager_port> <policy_id>
 ACTIVATIONURL="dsm://$1:$2/"
 MANAGERURL="https://$1:$3"
 CURLOPTIONS='--silent --tlsv1.2'
